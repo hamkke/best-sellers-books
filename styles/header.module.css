@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding: 20px 30px;
-  background-color: antiquewhite;
+  border-bottom: 4px solid #000;
 }
 .fontColor {
   color: #000000;

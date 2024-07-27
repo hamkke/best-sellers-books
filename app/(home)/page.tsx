@@ -1,7 +1,7 @@
+import { Metadata } from 'next';
 import LinkButton from '@/components/linkButton';
 import { Result } from '@/utils/types';
-import { Metadata } from 'next';
-
+import styles from '@/styles/home.module.css';
 export const metadata: Metadata = {
   title: 'home',
 };
@@ -14,11 +14,11 @@ const getBookList = async () => {
 export default async function Home() {
   const { results } = await getBookList();
   return (
-    <div>
-      <ul>
+    <div className={styles.ship}>
+      <ul className={styles.container}>
         {results.map((item: Result, idx: number) => {
           return (
-            <li key={`${idx}${item.display_name}`}>
+            <li key={`${idx}${item.display_name}`} className={styles.list}>
               <LinkButton
                 text={item.display_name}
                 link={`/list/${item.list_name_encoded}`}

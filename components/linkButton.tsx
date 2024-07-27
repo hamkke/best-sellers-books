@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '@/styles/costans.module.css';
+import styles from '@/styles/linkButton.module.css';
 
 interface IButton {
   text: string;

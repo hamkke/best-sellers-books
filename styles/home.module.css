@@ -1,0 +1,13 @@
+.ship {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: beige;
+}
+.container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
