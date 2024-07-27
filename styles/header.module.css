@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: antiquewhite;
+}
+.fontColor {
+  color: #000000;
+}
+.fontColorActive {
+  color: rgb(255, 0, 0);
+}
+.listBox {
+  display: flex;
+}
+
+.list:first-child {
+  margin-right: 20px;
+}
