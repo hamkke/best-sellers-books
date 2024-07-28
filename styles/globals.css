@@ -138,3 +138,7 @@ a {
   color: inherit;
   display: block;
 }
+button {
+  font-family: inherit;
+  color: inherit;
+}
