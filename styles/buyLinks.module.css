@@ -1,0 +1,18 @@
+.container {
+  position: absolute;
+  right: -180px;
+  bottom: 0px;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px;
+  z-index: 10;
+}
+
+.list {
+  padding: 5px 15px;
+}
+.link {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.link:hover {
+  color: rgb(241, 37, 37);
+}
