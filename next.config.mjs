@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: '/ing/:path*',
+        destination:
+          'https://storage.googleapis.com/du-prd/books/images/:path*',
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
