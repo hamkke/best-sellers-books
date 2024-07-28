@@ -1,4 +1,4 @@
-export interface RootInterface {
+export interface IBookList {
   status: string;
   copyright: string;
   num_results: number;
@@ -14,7 +14,17 @@ export interface Result {
   updated: string;
 }
 
-export interface QootInterface {
+export interface BuyLink {
+  name: string;
+  url: string;
+}
+
+interface ISBN {
+  isbn10: string;
+  isbn13: string;
+}
+
+export interface BookData {
   rank: number;
   rank_last_week: number;
   weeks_on_list: number;
@@ -38,17 +48,7 @@ export interface QootInterface {
   first_chapter_link: string;
   sunday_review_link: string;
   article_chapter_link: string;
-  isbns: Isbn[];
-  buy_links: Buylink[];
+  isbns: ISBN[];
+  buy_links: BuyLink[];
   book_uri: string;
-}
-
-export interface Buylink {
-  name: string;
-  url: string;
-}
-
-export interface Isbn {
-  isbn10: string;
-  isbn13: string;
 }
