@@ -15,6 +15,7 @@ export default async function Home() {
   const { results } = await getBookList();
   return (
     <div className={styles.ship}>
+      <h2 className={styles.title}>What are you looking for?</h2>
       <ul className={styles.container}>
         {results.map((item: Result, idx: number) => {
           return (
