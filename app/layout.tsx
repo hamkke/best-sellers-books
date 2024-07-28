@@ -23,8 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // FIXME:나중에 언어 변경
-    <html lang='ko-KR'>
+    <html lang='en'>
       <body className={schoolbell.className}>
         <Header />
         {children}
