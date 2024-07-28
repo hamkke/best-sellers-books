@@ -3,7 +3,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/ing/:path*',
+        source: '/transform/:path*',
         destination:
           'https://storage.googleapis.com/du-prd/books/images/:path*',
       },
