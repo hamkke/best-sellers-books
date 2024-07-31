@@ -28,15 +28,18 @@
 
 ## 20240727
 
-내가 원하는 색으로 바탕화면
-좋아요
+내가 원하는 색으로 바탕화면 O
+좋아요 X
+디테일 페이지 완성 O
+이번에는 footer도 넣어보고 X
+ts O
+next의 이미지 컴포넌트도 써보고 O
+loading, not-found 파일도 만들어야 하고 X
+CORS때문에 color-thief는 실패
 
-- 리코일이 필요하겠지...?
-- 로컬스토리지...?
+## 20240731
 
-  디테일 페이지 완성
-  이번에는 footer도 넣어보고
-  ts
-  next의 이미지 컴포넌트도 써보고
-  loading, not-found 파일도 만들어야 하고
-  CORS때문에 extract-colors는 실패
+CORS때문에 color-thief는 실패했는데 next.js rewrites 사용해서 성공
+좋아요 X
+이번에는 footer도 넣어보고 X
+loading, not-found 파일도 만들어야 하고 X

@@ -6,10 +6,10 @@ const Header = () => {
     <header className={styles.header}>
       <nav>
         <ul className={styles.listBox}>
-          <li className={styles.list}>
+          <li>
             <LinkButton text='HOME' link='/' />
           </li>
-          <li className={styles.list}>
+          <li>
             <LinkButton text='ABOUT' link='/about' />
           </li>
         </ul>
