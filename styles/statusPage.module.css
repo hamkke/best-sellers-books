@@ -1,22 +1,15 @@
-.ship {
-  width: 100vw;
+.container {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* width: 100vw; */
   min-width: max-content;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 40px;
 }
+
 .title {
-  font-size: 200px;
-  margin-bottom: 20px;
-}
-.p {
   font-size: 100px;
+  margin-bottom: 20px;
 }

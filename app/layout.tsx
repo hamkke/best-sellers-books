@@ -5,7 +5,6 @@ import Header from '@/components/header';
 
 const schoolbell = Schoolbell({
   weight: '400',
-  // preload: false,
   subsets: ['latin'],
 });
 
@@ -23,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='ko-KR'>
       <body className={schoolbell.className}>
         <Header />
         {children}

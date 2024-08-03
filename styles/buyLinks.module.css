@@ -1,7 +1,8 @@
 .container {
   position: absolute;
-  right: -180px;
+  right: -190px;
   bottom: 0px;
+  border: 4px solid #000;
   border-radius: 255px 15px 225px 15px / 15px 225px 15px;
   z-index: 10;
 }

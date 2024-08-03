@@ -1,11 +1,6 @@
 import Link from 'next/link';
+import { BuyLinksProps } from '@/utils/types';
 import styles from '@/styles/buyLinks.module.css';
-import { BuyLink } from '@/utils/types';
-
-interface BuyLinksProps {
-  backgroundColor?: string;
-  buy_links: BuyLink[];
-}
 
 export default function BuyLinks({
   buy_links,

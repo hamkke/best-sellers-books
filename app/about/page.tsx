@@ -7,9 +7,11 @@ export const metadata: Metadata = {
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <h2 className={styles.title}>（っ ‘ ᵕ ‘ ｃ）</h2>
-      <p className={styles.p}>HELLOOOOOOOO</p>
+    <div className={styles.ship}>
+      <div className={styles.container}>
+        <h2 className={styles.title}>（っ ‘ ᵕ ‘ ｃ）</h2>
+        <p className={styles.p}>HELLOOOOOOOO</p>
+      </div>
     </div>
   );
 };

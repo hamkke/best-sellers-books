@@ -1,27 +1,17 @@
-export interface IBookList {
+export interface BookCategories {
   status: string;
   copyright: string;
   num_results: number;
-  results: Result[];
+  results: CategoriesResult[];
 }
 
-export interface Result {
+export interface CategoriesResult {
   list_name: string;
   display_name: string;
   list_name_encoded: string;
   oldest_published_date: string;
   newest_published_date: string;
   updated: string;
-}
-
-export interface BuyLink {
-  name: string;
-  url: string;
-}
-
-interface ISBN {
-  isbn10: string;
-  isbn13: string;
 }
 
 export interface BookData {
@@ -51,4 +41,25 @@ export interface BookData {
   isbns: ISBN[];
   buy_links: BuyLink[];
   book_uri: string;
+}
+export interface BuyLink {
+  name: string;
+  url: string;
+}
+
+interface ISBN {
+  isbn10: string;
+  isbn13: string;
+}
+
+export interface BookDetailProps {
+  rank: number;
+  title: string;
+  author: string;
+  imgPath: string;
+  buy_links: BuyLink[];
+}
+export interface BuyLinksProps {
+  backgroundColor: string | undefined;
+  buy_links: BuyLink[];
 }
